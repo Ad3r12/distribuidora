@@ -17,6 +17,7 @@
         "infobip/infobip-api-php-client": "3.2.0",
         "intervention/image": "^2.5",
         "khaled.alshamaa/ar-php": "^6.3",
+        "kitloong/laravel-migrations-generator": "^6.0",
         "laravel/framework": "^10.0",
         "laravel/passport": "^11.0",
         "laravel/tinker": "^2.0",
@@ -26,9 +27,10 @@
         "macellan/laravel-zip": "^1.0",
         "nesbot/carbon": "^2.38",
         "nwidart/laravel-modules": "^8.3",
+        "promphp/prometheus_client_php": "^2.12",
+        "react/promise": "3.2",
         "stripe/stripe-php": "^7.76",
         "twilio/sdk": "^6.22",
-         "kitloong/laravel-migrations-generator": "^6.0",
         "yajra/laravel-datatables-oracle": "^10.0"
     },
     "require-dev": {

@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Storage;
 use App\Http\Controllers\BaseController;
 use Modules\Store\Http\Controllers\StoreController;
 use Laravel\passport\Passport;
-
+use App\Http\Controllers\PrometheusController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,6 +19,8 @@ use Laravel\passport\Passport;
 
 //------------------------------------------------------------------\\
 // Passport::routes();
+
+Route::get('/metrics', [PrometheusController::class, 'metrics']);
 
 Route::post('/login', [
     'uses' => 'Auth\LoginController@login',
