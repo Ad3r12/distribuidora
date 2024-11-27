@@ -26,7 +26,7 @@ $(function() {
             url: '/setup/testDB',
             data: $('#dbform').serialize(),
             success: function (data) {
-                if(data.hasOwnProperty('Error'))
+                if(Object.prototype.hasOwnProperty.call(data, 'Error'))
                 {
                     $('#errormsg').html(data.Error);
                     $('#errormsg').addClass('danger').addClass('alert-danger');
