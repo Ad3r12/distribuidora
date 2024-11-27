@@ -1,0 +1,6 @@
+projectKey=Distribuidora-v2
+serverUrl=http://localhost:9000
+serverVersion=10.7.0.96327
+dashboardUrl=http://localhost:9000/dashboard?id=Distribuidora-v2
+ceTaskId=50b94cc3-06fc-423b-8507-2216c75dbb6d
+ceTaskUrl=http://localhost:9000/api/ce/task?id=50b94cc3-06fc-423b-8507-2216c75dbb6d
